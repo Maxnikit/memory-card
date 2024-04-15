@@ -67,15 +67,12 @@ body {
   color: white;
   background-color: #242424;
 }
-/* .mantine-Button-root {
-  background-color: red;
+.mantine-Text-root {
+  padding-bottom: 10px;
 }
-.mantine-Button-root:hover {
-  background-color: rgb(168, 9, 9);
+.mantine-Button-root:focus {
+  outline-color: white;
 }
-.mantine-Button-root:focus{
-  background-color: ;
-} */
 .difficultyButtons {
   display: flex;
   gap: 10px;
