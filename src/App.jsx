@@ -17,11 +17,11 @@ function App() {
   const [score, setScore] = useState(0);
   const [highScore, setHighScore] = useState(0);
   const [randomOperators, setRandomOperators] = useState(
-    getRandomOperators(r6operators, cardAmount)
+    getRandomObjects(r6operators, cardAmount)
   );
   const [clickedOperators, setClickedOperators] = useState([]);
 
-  function getRandomOperators(obj, num) {
+  function getRandomObjects(obj, num) {
     const keys = Object.keys(obj);
     const shuffledKeys = keys.sort(() => 0.5 - Math.random());
     const selectedKeys = shuffledKeys.slice(0, num);
@@ -30,9 +30,7 @@ function App() {
   }
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
-      // Generate random index
       const j = Math.floor(Math.random() * (i + 1));
-      // Swap elements at indices i and j
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
