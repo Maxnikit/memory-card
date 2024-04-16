@@ -10,6 +10,6 @@ This simple game tests your memory. Just don't click on the same card twice!
 [@marcopixel](https://github.com/marcopixel) for creating a wonderful [collection](https://github.com/marcopixel/r6operators) of Rainbow Six: Siege operator icons.
 
 # License
-r6operators is licensed under the MIT License.
+memory-card is licensed under the MIT License.
 
 This project is not affiliated with Ubisoft Entertainment. Tom Clancy’s, Rainbow Six, The Soldier Icon, Ubisoft and the Ubisoft logo are trademarks of Ubisoft Entertainment.
