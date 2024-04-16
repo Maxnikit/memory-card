@@ -86,3 +86,9 @@ body {
 .difficultyButtons button:focus {
   outline-color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 40%;
+  }
+}
