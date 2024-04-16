@@ -8,7 +8,7 @@ const Card = ({ operator, handleCardClick }) => {
         className="icon"
         title={operator.name}
         alt={operator.name}
-        width={200}
+        width={180}
         height="100%"
       />
       <h3 className="operator-name">{operator.name}</h3>

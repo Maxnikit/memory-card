@@ -59,7 +59,7 @@ function App() {
   const handleRestart = useCallback(() => {
     setScore(0);
     setClickedOperators([]);
-    setRandomOperators(getRandomOperators(r6operators, cardAmount));
+    setRandomOperators(getRandomObjects(r6operators, cardAmount));
     close();
   }, [cardAmount, close, setScore, setClickedOperators, setRandomOperators]);
 
