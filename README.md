@@ -1,8 +1,7 @@
-# React + Vite
+# R6: Siege - Memory Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This simple game tests your memory. Just don't click on the same card twice!
 
-Currently, two official plugins are available:
+[Play now](https://memory-card-8bg.pages.dev/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/Maxnikit/memory-card/assets/42117027/677b106a-8b1c-495f-8ac4-af317bccb47d)
