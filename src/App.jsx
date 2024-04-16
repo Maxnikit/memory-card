@@ -58,6 +58,7 @@ function App() {
   }, [score, highScore]);
   const handleRestart = useCallback(() => {
     setScore(0);
+    setHighScore(0);
     setClickedOperators([]);
     setRandomOperators(getRandomObjects(r6operators, cardAmount));
     close();
